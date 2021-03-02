@@ -2,11 +2,30 @@
 //  DO NOT MODIFY NEXT LINE
 //------------------------------
 #include "catch.hpp"
+#include <iostream>
+#include <iomanip>
+#include <stdexcept>
+#include <sstream>
+#include <string>
+using namespace std;
 //------------------------------
 
 // Put the assignment code here
 
 class Quaternion {
+  public:
+  ClassWithQuaternion(int a, int bi, int cj, int dk );
+  double get(int a);
+  double get(int b);
+  double get(int c);
+  double get(int d);
+
+  private:
+  bool operator >(const Quaternion& int)
+      return a = bi
+      
+
+
 };
 
 //------------------------------
